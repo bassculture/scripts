@@ -1,2 +1,3 @@
 *.pyc
 .DS_Store
+meimeta/test/testdocs/*.mei
