@@ -24,7 +24,7 @@ class MeiMetaImportTest(unittest.TestCase):
         self.assertEqual(len(metainfo.sources), 0)
 
     def test_importtest(self):
-        headers = ImportFromTabbedText(os.path.join("test", "testdocs", "bassculture-fields-test.txt"))
+        headers = ImportFromTabbedText(os.path.join("test", "docs", "bassculture-fields-test.txt"))
         self.assertEqual(len(headers), 7)
 
         metainfo = headers[0]

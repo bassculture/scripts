@@ -1,4 +1,0 @@
-title row 1				
-title row 2				
-title row 3				
-/@xml:id	foo/@xml:id	foo/bar*	foo/bar*/@xml:id	"foo/elem/with[attr=""value""]"

@@ -12,13 +12,13 @@ class MetadataDocumentTest(unittest.TestCase):
         pass
 
     def test_readrowmodel(self):
-        doc = MetadataDocument(os.path.join('test', 'testdocs', 'doc-test.txt'))
+        doc = MetadataDocument(os.path.join('test', 'docs', 'doc-test.txt'))
         self.assertIn('@bc:id', doc.rowmodel.fields)
         self.assertIn('path/to/an/element', doc.rowmodel.fields)
         self.assertIn('path/to/another/element/with[attr="value"]', doc.rowmodel.fields)
 
     def test_readrowdata(self):
-        doc = MetadataDocument(os.path.join('test', 'testdocs', 'doc-test.txt'))
+        doc = MetadataDocument(os.path.join('test', 'docs', 'doc-test.txt'))
         self.assertEqual(len(doc.rows), 2)
         self.assertEqual(doc.rows[0].values['@bc:id'].value, 'header-00')
         self.assertEqual(doc.rows[0].values['path/to/an/element'].value, 'data01')
@@ -89,8 +89,8 @@ class MetadataDocumentTest(unittest.TestCase):
         self.assertEqual(get_descendants(doc.headers['header-00'].meiHead, 'title')[2].value, 'title 2') # 2nd work title
 
     def test_export(self):
-        exportPath = os.path.join('test', 'testdocs')
-        filename = os.path.join('test', 'testdocs', 'meta-test.txt')
+        exportPath = os.path.join('test', 'docs', 'out')
+        filename = os.path.join('test', 'docs', 'meta-test.txt')
         doc = MetadataDocument(filename = filename, exportPath = exportPath)
         status = doc.exportHeaders()
         self.assertTrue(status)

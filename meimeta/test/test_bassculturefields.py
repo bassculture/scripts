@@ -12,8 +12,8 @@ class BasscultureFiledsTest(unittest.TestCase):
         pass
 
     def test_fieldorder(self):
-        exportPath = os.path.join('test', 'testdocs')
-        filename = os.path.join('test', 'testdocs', 'bassculture-fieldorders.txt')
+        exportPath = os.path.join('test', 'docs', 'out')
+        filename = os.path.join('test', 'docs', 'bassculture-fieldorders.txt')
         doc = MetadataDocument(filename = filename, exportPath = exportPath)
         self.assertIn('@bc:id', doc.rowmodel.fields)
         self.assertEqual(len(doc.rows), 2)
@@ -28,8 +28,8 @@ class BasscultureFiledsTest(unittest.TestCase):
         self.assertTrue(status)
 
     def test_allfields(self):
-        exportPath = os.path.join('test', 'testdocs')
-        filename = os.path.join('test', 'testdocs', 'bassculture-fields-test.txt.bcfields')
+        exportPath = os.path.join('test', 'docs', 'out')
+        filename = os.path.join('test', 'docs', 'bassculture-fields-test.txt.bcfields')
         doc = MetadataDocument(filename = filename, exportPath = exportPath)
         self.assertIn('@bc:id', doc.rowmodel.fields)
         self.assertEqual(len(doc.rows), 70)
@@ -37,8 +37,8 @@ class BasscultureFiledsTest(unittest.TestCase):
         self.assertTrue(status)
 
     def test_realdata(self):
-        exportPath = os.path.join('test', 'testdocs')
-        filename = os.path.join('test', 'testdocs', 'bassculture-realdata.txt.bcfields')
+        exportPath = os.path.join('test', 'docs', 'out')
+        filename = os.path.join('test', 'docs', 'bassculture-realdata.txt.bcfields')
         doc = MetadataDocument(filename = filename, exportPath = exportPath)
         self.assertIn('@bc:id', doc.rowmodel.fields)
         status = doc.exportHeaders()

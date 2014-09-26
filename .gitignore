@@ -1,3 +1,5 @@
-*.pyc
-.DS_Store
-meimeta/test/testdocs/*.mei
+**/.DS_Store
+meimeta/test/docs/out/
+!meimeta/test/docs/out/README
+**/*.pyc
+
