@@ -3,7 +3,6 @@ import sys
 sys.path.insert(0, '..')
 from pymei import MeiElement
 import scripts.utilities as utilities
-import scripts.bcpymei.src.python as bcpymei
 
 class UtilitiesTest(unittest.TestCase):
     def setUp(self):
@@ -87,17 +86,6 @@ class UtilitiesTest(unittest.TestCase):
         annots = utilities.get_descendants(meiHead, 'annot[type=link]')
         self.assertEqual(len(annots), 1)
         self.assertEqual(annots[0].getAttribute('type').value, 'link')
-
-    def test_sortchainedelems(self):
-        sourceDesc = MeiElement('sourceDesc')
-        utilities.chain_elems_with_attribute_value(sourceDesc, ['source', 'pubStmt'])
-        utilities.chain_elems_with_attribute_value(sourceDesc, ['source', 'titleStmt'])
-        
-        for source in utilities.get_descendants(sourceDesc, 'source'):
-            source.orderChildren()
-
-        self.assertEqual(source.getChildren()[0].getName(),  'titleStmt')
-        self.assertEqual(source.getChildren()[1].getName(),  'pubStmt')
 
 if __name__ == "__main__":
     test_suite = unittest.TestSuite()
