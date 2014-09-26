@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-d075d39d-a27d-46f4-b718-a6c01661bc43" meiversion="2013">
+  <meiHead xml:id="m-6f1f2879-ca45-4b8b-a492-14c4f6d836b8" xmlns:bc="http://bassculture.info/ns/1.0" bc:id="header-id-03">
+    <fileDesc xml:id="m-9d335c32-51dd-4383-b097-084b8488133e">
+      <titleStmt xml:id="m-028d6409-381a-4a76-8f20-203826947d87">
+        <title xml:id="m-b9a7a3e0-ec34-457c-9114-cf9c56f895d0"/>
+      </titleStmt>
+      <pubStmt xml:id="m-be97ff6f-58d7-4005-aca6-5dd6f26d75a4"/>
+    </fileDesc>
+    <workDesc xml:id="m-28ac83fb-d690-4ef3-bb51-3a75646a21e2">
+      <work xml:id="m-ae41feee-495b-4562-882c-29cad9affb95" bc:id="work-id-03">
+        <titleStmt xml:id="m-b41759fb-885d-448c-8da4-c68a32a1b4cc">
+          <title xml:id="m-db3a56e3-d05c-4688-8e4b-843bca8bd5a4">work title</title>
+          <respStmt xml:id="m-ad245c7d-f27b-4881-a73e-efbeba0e0515">
+            <persName xml:id="m-821b3b9d-a0e6-4f67-a58e-4f50d21dcb8c" role="role of person">"surname, firstname"</persName>
+          </respStmt>
+        </titleStmt>
+        <notesStmt xml:id="m-9a48de1a-d7b6-4cb6-bcd1-c473be50007a">
+          <annot xml:id="m-b0ffe59b-caaf-41e5-85f0-e6b1139fc9fc" type="description">work description</annot>
+          <annot xml:id="m-2a2fee54-2d15-4984-afb2-edb2ca5dec37" type="details">detailed notes of work</annot>
+          <annot xml:id="m-77425a2a-5d62-4902-8441-301500e35cd2" type="link">
+            <ptr xml:id="m-5018dc53-4458-4776-8e2b-75ca75a1d75c" target="htpp://example.com/" label="title"/>
+          </annot>
+        </notesStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music xml:id="m-0037c99d-ca3d-4c69-a82a-4ba04c7f0591"/>
+</mei>

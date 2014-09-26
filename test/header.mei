@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../odd/schemata/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../odd/schemata/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
+	meiversion="2013">
+	<meiHead>
+		<fileDesc>
+			<titleStmt>
+				<title>A Collection of Scots Reels Minuets, &amp;c.<title type="subtitle">for the Violin, Harpsichord or German Flute</title></title>
+				<title type="subtitle">Metadata</title>
+				<composer>
+					<persName>
+						<name type="forename">John</name> 
+						<name type="surname">Riddell</name> 
+					</persName>
+				</composer>
+			</titleStmt>
+			<pubStmt>
+				<unpub>incomplete</unpub>
+			</pubStmt>
+			<sourceDesc>
+				<source xml:id="BCul-SRC-JR.1">
+					<titleStmt>
+						<title type="main">A Collection of Scots Reels Minuets, &amp;c.</title>
+						<title type="subtitle">for the Violin, Harpsichord or German Flute</title>
+						<respStmt>
+							<resp>Composer</resp>
+							<persName>
+								<name type="forename">John</name> 
+								<name type="forename">Riddell</name> 
+							</persName>
+						</respStmt>
+					</titleStmt>
+					<editionStmt>
+						<edition>Second Edition</edition>
+					</editionStmt>
+					<pubStmt>
+						<publisher><geogName>Glasgow</geogName>
+							<corpName>Stationers Hall</corpName>
+						</publisher>
+					</pubStmt>
+					<physDesc>
+						<extent>60 pp [Bacchus wrongly says 40 pp]
+							Verso flyleaf, comparative modern index [i-iv], 1-60 pp
+						</extent>
+						<dimensions unit="cm">
+							<num unit="cm">25.5</num>✕<num unit="cm">17.5</num>							
+						</dimensions>
+					</physDesc>
+					<itemList>
+						<item>
+							<physLoc>
+								<repository><identifier>GB-A</identifier></repository>
+							</physLoc>
+						</item>
+						<item>
+							<physLoc>
+								<repository><identifier>GB-DU</identifier></repository>
+							</physLoc>
+						</item>
+						<item>	
+							<physLoc>
+								<repository><identifier>GB-En</identifier></repository>
+								<identifier>Glen 97</identifier>
+							</physLoc>
+						</item>
+						<item>	
+							<physLoc>
+								<repository><identifier>GB-Gu</identifier></repository>
+								<identifier>Ca9-d.22</identifier>
+							</physLoc>
+						</item>
+						<item>	
+							<physLoc>
+								<repository><identifier>GB-Lbl</identifier></repository>
+							</physLoc>
+						</item>
+						<item>	
+							<physLoc>
+								<repository><identifier>GB-P</identifier></repository>
+								<identifier>Bd30</identifier>
+							</physLoc>
+						</item>
+					</itemList>
+					<relationList>
+						<relation rel="isEmbodimentOf" target="#BCul-EXPR-JR.1"/>
+					</relationList>
+				</source>
+			</sourceDesc>
+		</fileDesc>
+		<workDesc>
+			<work xml:id="BCul-W-JR.1">
+				<titleStmt>
+					<title type="main">A Collection of Scots Reels Minuets, &amp;c.</title>
+					<title type="subtitle">for the Violin, Harpsichord or German Flute</title>
+					<respStmt>
+						<resp>Composer</resp>
+						<persName>
+							<name type="forename">John</name> 
+							<name type="forename">Riddell</name> 
+						</persName>
+					</respStmt>
+				</titleStmt>
+				<expressionList>
+					<expression xml:id="BCul-EXPR-JR.1">
+						<relationList>
+							<relation rel="hasEmbodiment" target="#BCul-SRC-JR.1"/>
+						</relationList>
+					</expression>
+				</expressionList>
+			</work>
+		</workDesc>
+	</meiHead>
+</mei>

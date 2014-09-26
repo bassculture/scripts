@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-bbdcc6f3-6972-43cc-b753-a10f1e6b95df" meiversion="2013">
+  <facsimile xml:id="m-2a409f9c-1a30-4583-9a5a-269e3a0f27fc" xml:base="http://hms.scot/facsimiles/">
+    <surface xml:id="m-3f0aabce-818e-47c6-b519-026745d1ba10" n="1" label="page_-13">
+      <graphic xml:id="m-626db9fa-dc0a-4666-aa5a-fb1397472ecf" target="Ca11-y-_24_01.jpg"/>
+    </surface>
+    <surface xml:id="m-f021276e-9ad5-48d4-8299-0cb6c54726a1" n="2" label="page_-12">
+      <graphic xml:id="m-960ec692-f117-4565-bfdc-b1dcc99b71df" target="Ca11-y-_24_02.jpg"/>
+    </surface>
+    <surface xml:id="m-f826aac5-9f2b-4e71-82a7-0b9538d52682" n="3" label="page_-11">
+      <graphic xml:id="m-714aa129-24c7-4731-98b9-97af38e2ae20" target="Ca11-y-_24_03.jpg"/>
+    </surface>
+    <surface xml:id="m-4a3d882f-6f9e-496b-830b-9cdf9b96e617" n="4" label="page_-10">
+      <graphic xml:id="m-5af2f042-30e0-4cb2-9521-726bdd06e6d6" target="Ca11-y-_24_04.jpg"/>
+    </surface>
+    <surface xml:id="m-fe096cc2-8cbf-426b-9400-cd71fa784005" n="5" label="page_-9">
+      <graphic xml:id="m-62b155ac-2e2e-4900-bb17-7952a9104519" target="Ca11-y-_24_05.jpg"/>
+    </surface>
+    <surface xml:id="m-98f7b9d3-a26c-4005-b244-0c835a732fce" n="6" label="page_-8">
+      <graphic xml:id="m-5c8f00e2-e5f0-4dc2-a98d-8d2d717458c0" target="Ca11-y-_24_06.jpg"/>
+    </surface>
+    <surface xml:id="m-ae88d874-eb13-4baa-879d-94975fdf2704" n="7" label="page_-7">
+      <graphic xml:id="m-d02a426a-1922-4343-a7ec-0765c4ac1c9c" target="Ca11-y-_24_07.jpg"/>
+    </surface>
+    <surface xml:id="m-52cdfc66-d236-4b29-aaab-0f5d7b73d00a" n="8" label="page_-6">
+      <graphic xml:id="m-e186871b-15e6-4bfe-87a3-fbbff101226f" target="Ca11-y-_24_08.jpg"/>
+    </surface>
+    <surface xml:id="m-76a1dd33-f0d9-4ac3-997f-0753f298fbea" n="9" label="page_-5">
+      <graphic xml:id="m-382333a2-afe5-452c-b546-073f88b26a43" target="Ca11-y-_24_09.jpg"/>
+    </surface>
+    <surface xml:id="m-8af1b3fe-667d-4cd9-bfc6-1e7bd3f248c6" n="10" label="page_-4">
+      <graphic xml:id="m-50178e7b-ed5e-48f9-ab0b-61cdbe5a606b" target="Ca11-y-_24_10.jpg"/>
+    </surface>
+    <surface xml:id="m-cc1f9ab8-e7af-40c7-b015-b26d7c14773a" n="11" label="page_-3">
+      <graphic xml:id="m-6c573180-cc36-4ed6-94b5-2b86698a08fa" target="Ca11-y-_24_11.jpg"/>
+    </surface>
+    <surface xml:id="m-437bb6d2-4e0b-4d8e-982b-d75f1417954b" n="12" label="page_-2">
+      <graphic xml:id="m-e1bff13c-b410-4123-af93-a8be69071d44" target="Ca11-y-_24_12.jpg"/>
+    </surface>
+    <surface xml:id="m-93b36b1c-0966-4255-ba82-5f5e030e484e" n="13" label="page_-1">
+      <graphic xml:id="m-5b230c9a-baf9-4852-a46e-f107a1d6659b" target="Ca11-y-_24_13.jpg"/>
+    </surface>
+    <surface xml:id="m-4f47d1e3-a0c3-431d-add4-ff580051064c" n="14" label="page_0">
+      <graphic xml:id="m-6eb1aaa4-e913-4f88-a4b4-b95be0837be1" target="Ca11-y-_24_14.jpg"/>
+    </surface>
+    <surface xml:id="m-6467e3b5-bfc4-41a9-8ac5-db5b0fde5f66" n="15" label="page_1">
+      <graphic xml:id="m-a71dc9c1-9f19-4313-bcaf-ad16c1a4d700" target="Ca11-y-_24_15.jpg"/>
+    </surface>
+    <surface xml:id="m-110d8e89-17be-4efa-9b8f-3451c016c0c5" n="16" label="page_2">
+      <graphic xml:id="m-fed51785-0114-4515-8b92-48283835a45f" target="Ca11-y-_24_16.jpg"/>
+    </surface>
+    <surface xml:id="m-3642042d-a4d7-4723-9d9d-b005782c2a19" n="17" label="page_3">
+      <graphic xml:id="m-4cd7f380-6730-4776-9324-52147f9ec4c6" target="Ca11-y-_24_17.jpg"/>
+    </surface>
+    <surface xml:id="m-709c4d43-ae9e-4cf6-9a10-d2ff47dc66f7" n="18" label="page_4">
+      <graphic xml:id="m-ac929610-bfb4-48c2-9de8-5b459f82761f" target="Ca11-y-_24_18.jpg"/>
+    </surface>
+    <surface xml:id="m-24dc4106-eeea-42e7-ab37-c302372c2786" n="19" label="page_5">
+      <graphic xml:id="m-bfa92f4a-148a-46c1-925b-2631680bb268" target="Ca11-y-_24_19.jpg"/>
+    </surface>
+    <surface xml:id="m-0b8e4fe3-63aa-4ab9-8fc0-813066ac5d69" n="20" label="page_6">
+      <graphic xml:id="m-6d7172f6-11c4-4296-ac09-3ab0043f11da" target="Ca11-y-_24_20.jpg"/>
+    </surface>
+    <surface xml:id="m-8dd6727b-7b7a-43ef-932e-66a18140f0fd" n="21" label="page_7">
+      <graphic xml:id="m-33adbae3-b2f2-4508-8335-c6fb24ea88b5" target="Ca11-y-_24_21.jpg"/>
+    </surface>
+    <surface xml:id="m-4f2840b4-6fad-4d42-bde3-761f3a6d281c" n="22" label="page_8">
+      <graphic xml:id="m-32e4c10d-6db2-4576-bc34-5d7391122a82" target="Ca11-y-_24_22.jpg"/>
+    </surface>
+    <surface xml:id="m-044e6121-abea-4ab2-a446-7a193972e5c5" n="23" label="page_9">
+      <graphic xml:id="m-3e70a24a-ef56-4165-8987-ab638f2b5b37" target="Ca11-y-_24_23.jpg"/>
+    </surface>
+    <surface xml:id="m-8e747291-da44-461b-b63e-40547f43dbf9" n="24" label="page_10">
+      <graphic xml:id="m-ebf1f6d0-7943-462d-a522-511ec3a339fd" target="Ca11-y-_24_24.jpg"/>
+    </surface>
+    <surface xml:id="m-e400c375-9a15-4553-8485-521c16c0836b" n="25" label="page_11">
+      <graphic xml:id="m-7faf5e84-e79c-4163-b515-4a3e28f636ed" target="Ca11-y-_24_25.jpg"/>
+    </surface>
+    <surface xml:id="m-976ceea9-32a7-4343-9da1-c1311b8640fa" n="26" label="page_12">
+      <graphic xml:id="m-66fd40f1-5249-4be4-b57f-e03cb8c4bf26" target="Ca11-y-_24_26.jpg"/>
+    </surface>
+    <surface xml:id="m-18eb4545-2da3-4ccf-86d7-dc4b7ecbf9c6" n="27" label="page_13">
+      <graphic xml:id="m-f6e8b4f8-47c9-43d3-9ab2-babf824c744e" target="Ca11-y-_24_27.jpg"/>
+    </surface>
+    <surface xml:id="m-0ce7ff0a-b050-489d-9a22-360273eb41ca" n="28" label="page_14">
+      <graphic xml:id="m-54fc2f4c-9928-47b3-a99f-5eafac72fc99" target="Ca11-y-_24_28.jpg"/>
+    </surface>
+    <surface xml:id="m-b4620447-8cf7-41f5-9032-66c5c29c50ab" n="29" label="page_15">
+      <graphic xml:id="m-7ed8f629-d33b-4b3a-89c7-e9b1ec0d4cc5" target="Ca11-y-_24_29.jpg"/>
+    </surface>
+    <surface xml:id="m-c35240dc-70c4-4742-8625-92b85579f4ed" n="30" label="page_16">
+      <graphic xml:id="m-6c8d08f6-a81e-487b-87ad-12c89a865c97" target="Ca11-y-_24_30.jpg"/>
+    </surface>
+    <surface xml:id="m-94bed349-b56d-4e93-94d8-091e1e9c683f" n="31" label="page_17">
+      <graphic xml:id="m-29d2c73f-879a-4e11-ba0e-0886c7411126" target="Ca11-y-_24_31.jpg"/>
+    </surface>
+    <surface xml:id="m-6184e822-21d4-4066-9a3b-3f34d8ebe4e8" n="32" label="page_18">
+      <graphic xml:id="m-af98b6bc-569d-4162-87ab-c0c6fc5210a8" target="Ca11-y-_24_32.jpg"/>
+    </surface>
+    <surface xml:id="m-9ace8356-29ef-49be-9aa5-56f7f5d2cd82" n="33" label="page_19">
+      <graphic xml:id="m-b47a6cf0-4233-4c65-ae1b-9aac34d7f387" target="Ca11-y-_24_33.jpg"/>
+    </surface>
+    <surface xml:id="m-577ed6e4-42b4-4198-89c6-1d19cc349b36" n="34" label="page_20">
+      <graphic xml:id="m-dea49321-c6f3-43a8-89c4-a94a39b5c8b8" target="Ca11-y-_24_34.jpg"/>
+    </surface>
+    <surface xml:id="m-720ea152-67d3-4a19-9fe9-e290898bbe40" n="35" label="page_21">
+      <graphic xml:id="m-c821819b-ed14-43db-a4e8-1135bdf8b66a" target="Ca11-y-_24_35.jpg"/>
+    </surface>
+    <surface xml:id="m-ea311fbf-3e53-44c4-9668-8363d29d56e9" n="36" label="page_22">
+      <graphic xml:id="m-2e576e5d-73b9-4815-8dcd-088bcea042e0" target="Ca11-y-_24_36.jpg"/>
+    </surface>
+  </facsimile>
+</music>

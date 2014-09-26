@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-c8a3b5df-6771-4f2b-99fe-75ca292aab9a" meiversion="2013">
+  <meiHead xml:id="m-89efd5f6-9f75-4401-b7d0-22e0be8b14e5" xmlns:bc="http://bassculture.info/ns/1.0" bc:id="header-id-02">
+    <fileDesc xml:id="m-e0478a88-9d36-4e7c-ab5e-0b854f30660b">
+      <titleStmt xml:id="m-417603bd-9732-4369-a56a-26a3085bee63">
+        <title xml:id="m-6a71603a-5daa-4240-9c13-92d2dba0cb77"/>
+      </titleStmt>
+      <pubStmt xml:id="m-89bc2ec9-6728-4b46-9aa8-a54e5b874f28"/>
+      <sourceDesc xml:id="m-0379ea2c-b376-4a8b-a96c-88af75eefc0e">
+        <source xml:id="m-d024374e-7615-472f-af34-cc28ef7f1217" bc:id="src-id-02"/>
+        <source xml:id="m-cc229e86-a708-47ff-b2c4-2265c1cd88c4" bc:id="src-id-03"/>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc xml:id="m-207455d7-9006-43f1-8854-567fb933d8da">
+      <work xml:id="m-76721bd5-e384-4782-92e1-d881c907bf43" bc:id="work-id-02"/>
+    </workDesc>
+  </meiHead>
+  <music xml:id="m-6bd30b7a-f17a-45d7-8fad-54aa9aa64142"/>
+</mei>

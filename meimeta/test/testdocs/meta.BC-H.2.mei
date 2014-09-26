@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-95d66b22-30bd-42f6-b380-4cc37c3d8f48" meiversion="2013">
+  <meiHead xml:id="m-e38f5833-3b14-4d08-976f-f322edc3bcfc" xmlns:bc="http://bassculture.info/ns/1.0" bc:id="BC-H.2">
+    <fileDesc xml:id="m-d6124dc4-5283-4909-bf88-a968d3ac055e">
+      <titleStmt xml:id="m-abc2d80a-5941-4247-b0ae-22cd005c6d3a">
+        <title xml:id="m-fb7c29a5-ac22-4302-99e0-d3e75f7348c5"/>
+      </titleStmt>
+      <pubStmt xml:id="m-53441788-081c-47cd-bbe9-a2c9c3749326"/>
+      <sourceDesc xml:id="m-997f379f-1697-4d7c-a8e8-275389b00c24">
+        <source xml:id="m-317ed982-1cdc-428b-953f-b01b7bd61849" bc:id="BC-B.C1">
+          <identifier xml:id="m-14662e06-b3a6-4dcb-a401-f6ffe83f684b" authority="Gore">D2</identifier>
+          <identifier xml:id="m-50617fd1-f434-418e-83a2-b245e2d57483" authority="RISM">D7686</identifier>
+          <titleStmt xml:id="m-38457655-c46c-456b-bd7b-d44a5459bb39">
+            <title xml:id="m-c4e970ab-b09c-4431-8824-1b9f550849e3">A Collection of Strathspey or old Highland Reels</title>
+            <title xml:id="m-a9504dab-7fe7-4495-ae44-c7198d99f9c5">"A Collection of Strathspey or old Highland Reels with a bass for the violincello, Harpsichord or Pianoforte"</title>
+          </titleStmt>
+          <editionStmt xml:id="m-9955dd09-566f-4a8e-a29c-280f627e557f">
+            <edition xml:id="m-36594fc9-9f92-4938-b0cc-37ae95e4a6ae">1st edition</edition>
+          </editionStmt>
+          <pubStmt xml:id="m-99d303e4-b8bd-4083-92cc-c2894e347a5e">
+            <pubPlace xml:id="m-a52406cb-9491-4d58-8b99-332793e14bdf">Edinburgh</pubPlace>
+            <date xml:id="m-d535499e-584a-49df-9622-e873be477ef9">1780</date>
+          </pubStmt>
+          <physDesc xml:id="m-fe9f54ee-a71d-44ee-843c-c79dd0866fa6">
+            <dimensions xml:id="m-4214d9ff-5a62-4b0e-ba7b-04a14e8ae87b">
+              <num xml:id="m-9127b796-b1b2-4747-b466-6c1ebc7e7065" label="height">26</num>
+              <num xml:id="m-52bad32a-d4d7-40fe-abb6-a9b4134b88ac" label="width">35</num>
+            </dimensions>
+            <extent xml:id="m-6e26e29a-7e8a-46d2-8568-61eb09084b1f">20pp</extent>
+          </physDesc>
+          <physLoc xml:id="m-c3231c71-074d-424f-9c24-d1ed0c4153a8">
+            <repository xml:id="m-ff829c61-5202-4009-a462-b7d3dabae54e">Glasgow University Library<identifier xml:id="m-32ebdc73-c80a-490d-85ad-ceab57b21430" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-Gu</identifier></repository>
+            <identifier xml:id="m-fa5a83d7-5a32-4b21-b069-5324cfa25145">Ca11-y.24</identifier>
+          </physLoc>
+          <itemList xml:id="m-3d11f4aa-2e43-4693-84dc-c630b7d39787">
+            <item xml:id="m-a4e293e0-bb3d-492c-96d7-72bf80997d5d">
+              <physLoc xml:id="m-1c3a61ed-2351-49fb-877f-3ddaeec947e3">
+                <repository xml:id="m-5837f063-33f8-4fc0-b95f-23e0afd4f16e">
+                  <identifier xml:id="m-5ad54fef-c4f1-4340-9ee2-ba4df1f3e2bf" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-Gm</identifier>
+                </repository>
+                <identifier xml:id="m-ef019d7f-f926-49f6-b215-9a8ba1269e65">M8755</identifier>
+              </physLoc>
+            </item>
+            <item xml:id="m-04c9470e-47d1-43b3-9622-c507eafb6e71">
+              <physLoc xml:id="m-132bbaa4-39ca-4ece-b101-66f2388be32c">
+                <repository xml:id="m-4d316b13-8e30-435b-b319-5053d7c102b7">
+                  <identifier xml:id="m-1f39d87e-2e64-48f4-9630-734d50b12aa0" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-Gm</identifier>
+                </repository>
+                <identifier xml:id="m-1ef8b7f1-1a99-4fb4-86d7-9e605a6d5080">M8755</identifier>
+              </physLoc>
+            </item>
+            <item xml:id="m-359ee39b-e589-4858-8165-c48697fd7918">
+              <physLoc xml:id="m-f680e47e-5af4-4e46-91b8-94f4e513c4ee">
+                <repository xml:id="m-f2807ab6-94a2-43ae-9ec9-ed880e74da10">
+                  <identifier xml:id="m-40d0bfac-9cef-4ce2-ba87-30ed60a354ce" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-DU</identifier>
+                </repository>
+                <identifier xml:id="m-893343ae-08c0-4da5-9a89-94404951e034">53677</identifier>
+              </physLoc>
+            </item>
+            <item xml:id="m-63f67564-c005-41f1-8dbe-d0756646e5c5">
+              <physLoc xml:id="m-129a83ed-5c9d-45de-886b-8f165595de78">
+                <repository xml:id="m-9f301baa-1640-422b-898d-257e8895f062">
+                  <identifier xml:id="m-15da4bec-c711-49fe-a7a5-1e0f9bcf89a2" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-Gm</identifier>
+                </repository>
+                <identifier xml:id="m-79612514-93f1-4a0d-ae1d-d0d15736394c">786.45</identifier>
+              </physLoc>
+            </item>
+            <item xml:id="m-a93a4bc6-4409-4608-8a86-db04fe4d5341">
+              <physLoc xml:id="m-930677ad-5f35-4e85-962f-daaa1daf9bfa">
+                <repository xml:id="m-2da10263-f5fe-46ca-88ae-f28a8d481a7a">
+                  <identifier xml:id="m-0185d5dd-919f-4c82-b496-44ff6392f3ce" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-Lbl</identifier>
+                </repository>
+              </physLoc>
+            </item>
+            <item xml:id="m-8d23c2cd-b2ea-45aa-908d-eb441810f446">
+              <physLoc xml:id="m-39405ac9-771a-4b3e-a7c8-93906fdab500">
+                <repository xml:id="m-f38cb0ae-baee-46b8-84ae-5c1ca1677038">
+                  <identifier xml:id="m-b5daf785-ca57-4d50-b7eb-441095e0f645" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-Lbl</identifier>
+                </repository>
+              </physLoc>
+            </item>
+            <item xml:id="m-3e5be01b-862f-4c26-97f8-aa22c2df9165">
+              <physLoc xml:id="m-427416f8-57b3-4ff8-83b4-dbffa41fee1c">
+                <repository xml:id="m-f48eee77-df33-408e-817e-617ad6d5cdbe">
+                  <identifier xml:id="m-5d7b9895-8c5f-4832-9445-cd32114fea68" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-P</identifier>
+                </repository>
+                <identifier xml:id="m-0409d12c-8c0a-446a-a1dd-a6642bec5483">34721</identifier>
+              </physLoc>
+            </item>
+            <item xml:id="m-e4883fa5-0a88-4438-801b-9a9669d62687">
+              <physLoc xml:id="m-69840402-adf2-4a07-9110-16cf913f6138">
+                <repository xml:id="m-1fe5e725-db54-49a5-ba54-25a8172f2b4b">
+                  <identifier xml:id="m-5d116686-7c35-427e-9b5f-7f1be5e6109e" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-En</identifier>
+                </repository>
+                <identifier xml:id="m-95d88085-2248-4d14-930d-423e47106c5b">Glen 234</identifier>
+              </physLoc>
+            </item>
+            <item xml:id="m-59ca0ed9-2abc-44dc-9874-b1c8161e8de2">
+              <physLoc xml:id="m-1b9d3348-4049-482a-9a4b-b5c254a1adb8">
+                <repository xml:id="m-97445ba8-0a6d-4742-8fb8-1a15e473d3d1">
+                  <identifier xml:id="m-167d7393-00ae-4e51-9792-dcb5ec5c2a22" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-A</identifier>
+                </repository>
+                <identifier xml:id="m-b93b1c19-a22d-4698-92d5-b71769af5203">Hend inst Cum c</identifier>
+              </physLoc>
+            </item>
+          </itemList>
+        </source>
+        <source xml:id="m-d5bf4369-d0c8-4026-a38a-23e20f5c5e63" bc:id="BC-B.C2">
+          <titleStmt xml:id="m-2338af06-8c87-4d56-9b08-900d5104b5b1">
+            <title xml:id="m-ad599aad-749f-4246-8cfc-2355b74ea3b0">A Collection of Strathspey or old Highland Reels</title>
+          </titleStmt>
+          <editionStmt xml:id="m-dc8fdd71-d90e-4391-87b7-d6addf986636">
+            <edition xml:id="m-aa8711a7-71f4-4d2f-8817-b69ffb1d0875">1st edition</edition>
+          </editionStmt>
+          <pubStmt xml:id="m-9b3473be-7f47-4204-812e-968ec99831ff">
+            <pubPlace xml:id="m-6c5c2ae5-02f8-4138-983c-cd990fd5a4ce">Glasgow</pubPlace>
+            <date xml:id="m-a7a619c0-5067-4374-9d54-f8fcf3424fa9">1780</date>
+          </pubStmt>
+          <physLoc xml:id="m-fb78e676-ec67-4030-ac0d-f16591e501e6">
+            <repository xml:id="m-431afea9-de51-4ecb-b2f7-98e37ecb67bb">
+              <identifier xml:id="m-48025e54-dfc1-44d5-adfa-c495fb8ff999" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-A</identifier>
+            </repository>
+            <identifier xml:id="m-6b0b5b71-612d-4aaf-9920-8473e4286bd4">e.284.c(1)</identifier>
+          </physLoc>
+        </source>
+        <source xml:id="m-18462c2b-f1b2-4b5c-b395-83f58d91e202" bc:id="BC-B.C3">
+          <titleStmt xml:id="m-6a2245ba-2d35-4737-b65a-dfff6ce011d2">
+            <title xml:id="m-e8daeefb-ddb8-4252-b0a4-d99eebfaa493">A Collection of Strathspey or old Highland Reels</title>
+          </titleStmt>
+          <editionStmt xml:id="m-86652f3e-2461-4c2b-92ae-c088a674c1d3">
+            <edition xml:id="m-928c5891-96eb-44d5-8b19-6c89d181db52">1st edition</edition>
+          </editionStmt>
+          <pubStmt xml:id="m-6694d650-6cd9-4dc5-aa38-7d2f97d5dee4">
+            <pubPlace xml:id="m-44c364c5-ce4e-4b01-bb8d-c104bc8cbbdb">Glasgow</pubPlace>
+            <date xml:id="m-2b9f4738-b85a-4b37-b7be-995693fb1d03">1798</date>
+          </pubStmt>
+          <physLoc xml:id="m-b45c1a6d-8b10-4d9e-9c92-beee7e22b10c">
+            <repository xml:id="m-5797c084-68ed-47c2-9782-ae416182fad2">
+              <identifier xml:id="m-57579297-8689-4873-9202-5f0cfe17b01a" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">GB-A</identifier>
+            </repository>
+            <identifier xml:id="m-0c0ce967-9073-48ec-8d2d-c70ed90f9a35">Lib R f8155 Cum c</identifier>
+          </physLoc>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc xml:id="m-1b5a0bbf-8352-4c54-9699-a476c1402936">
+      <work xml:id="m-5dbe4532-4b93-4117-a6f0-e8f96a6a2e67" bc:id="BC-W.C1">
+        <titleStmt xml:id="m-999d4211-0bed-4a04-8bd8-a87892986255">
+          <title xml:id="m-f0e03d7b-5491-49f9-a36e-01159ec9de12">A Collection of Strathspey or old Highland Reels</title>
+          <respStmt xml:id="m-439cfa73-5576-4656-93d8-0d6d15c0acb4">
+            <persName xml:id="m-3c669a2a-1cff-4c4a-a863-9002670674b3">"Cumming, Angus"</persName>
+          </respStmt>
+        </titleStmt>
+        <notesStmt xml:id="m-0d560885-dc66-4492-9538-c04a03d3e323">
+          <annot xml:id="m-398e1b55-1614-4cc9-91bd-14a13d788b93" type="details">"Cumming of GRANTOWN, self-pubd in Edinburgh. from subscribers list, everyone called Grant on the globe bought one (astonishing), also 'the celebrated' James McPherson and Tytler. Preface about Strathspey and primitivism. Invercald's Reel like McGlashan but finishing in D each strain. Much use of dotted rhythms, though good variety of single note patterns, and some piano chords, octaves and dyads. Fairly sparse provision of trills, even fewer grace notes.  NB inconsistencies in the way Cumming prints end of strain and upbeat of next - sometimes adds up to a full bar of 8 quavers, but sometimes not.  Confidently chosen tunes. long variation set on Reell of Tulloch, also 'Beggar's Bennison' DATABASE prefatory material supplied in photocopy in GUL copy. A number of copies.  Perth copy is good but titlepage is torn - where is there a Glasgow edition to check?   Need to check GUL and Mitchell to establish whether either or both are Glasgow edition.  Perth's TP torn and repaired with pencilled text, but original says Edbg 1780.  However we know the Glasgow one was 1782.  GUL copy lacks prefatory material. large landscape format"</annot>
+          <annot xml:id="m-754be35b-6ca9-4c71-97ae-0ac27883ad47" type="link">
+            <ptr xml:id="m-86668e2b-639f-4de1-997d-e5a86002fc50" target="http://www.scottishmusicindex.org/index.asp?view=sources&amp;id=39" label="Full Info"/>
+          </annot>
+        </notesStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music xml:id="m-f3d303d3-6ff6-44a8-a878-24cbda10dd60"/>
+</mei>

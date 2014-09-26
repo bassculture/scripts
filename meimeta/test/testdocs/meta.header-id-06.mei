@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-a622da0b-dbcb-4f7d-baca-4bcaea4e6456" meiversion="2013">
+  <meiHead xml:id="m-5d7da1e0-4f1a-4ac5-9b0b-1b9158e53e7e" xmlns:bc="http://bassculture.info/ns/1.0" bc:id="header-id-06">
+    <fileDesc xml:id="m-dd94530a-ac3c-4ee0-a9d3-1fd471f42032">
+      <titleStmt xml:id="m-d5cb3b84-a478-4082-95ee-42621138a163">
+        <title xml:id="m-77a5359f-2c77-461f-b5e5-4fa95ffbc563"/>
+      </titleStmt>
+      <pubStmt xml:id="m-6ad03346-57d3-423b-9dec-3135fe0ed954"/>
+      <sourceDesc xml:id="m-006a04f6-4bee-491d-82b3-056d74957c7d">
+        <source xml:id="m-5cd23911-9d10-4b28-942c-4120db5b3513" bc:id="src-id-06">
+          <identifier xml:id="m-6b4306da-d75a-4e59-8964-5908174c0423" authority="RISM">RISM-01</identifier>
+          <identifier xml:id="m-3623b24b-e313-490a-8a89-cd9ca6282612" authority="Gore">GORE-01</identifier>
+          <titleStmt xml:id="m-c34049bd-591a-471f-b168-156b6f0c4ce9">
+            <title xml:id="m-61b37f57-51db-4564-b7ca-db7dbe8526f9">source title</title>
+            <title xml:id="m-ec8fb5cc-a94f-4d62-ba4d-5f4f384ebca4">source alternative title</title>
+            <respStmt xml:id="m-63840c51-8d24-4b52-8c02-7236cb75e5c2">
+              <persName xml:id="m-ff509ed3-1b17-4ea0-b7d1-66bad4ea1c2d">"surname1, firstname1"</persName>
+              <persName xml:id="m-99224763-b819-415c-9729-064cce0e86b1" role="role of person">"surname2, firstname2"</persName>
+            </respStmt>
+          </titleStmt>
+          <editionStmt xml:id="m-ad3c07ec-a5ef-410f-a6b5-682936124f78">
+            <edition xml:id="m-ce2238cf-7036-4959-9671-3dfa196404d8">1st edition</edition>
+          </editionStmt>
+          <pubStmt xml:id="m-8ece1afb-e55b-445e-b5b6-9e4c495755be">
+            <pubPlace xml:id="m-b3192be7-e637-49cc-9202-c6838da1728b">place of publication</pubPlace>
+            <distributor xml:id="m-31cc8eb7-fe89-4666-9de8-4ddd62980b3a">
+              <corpName xml:id="m-6bb060b7-f1cd-4f6c-b10e-c62d6b11ddc8" role="sold by">seller corp.</corpName>
+              <address xml:id="m-e5b6ba69-346c-4c35-8836-8281c0bf45f7">
+                <addrLine xml:id="m-fb55c699-8b6d-4506-823a-16f632a0fe7a">place of sale</addrLine>
+              </address>
+              <persName xml:id="m-d2cd7a2e-ea59-4655-88b5-01070af24129" role="sold by">seller person</persName>
+            </distributor>
+            <respStmt xml:id="m-a67eeac0-0de5-42a4-85e4-ed21171aaed3">
+              <corpName xml:id="m-9d815c94-cb05-4acb-a2c5-01c93c714ade" role="printed by">printer corp.</corpName>
+              <persName xml:id="m-0e969be4-4f88-44e2-91d3-145a8fee8ddb" role="published by">publisher person</persName>
+              <corpName xml:id="m-d7243e07-ce49-4541-89ec-0700dd41a9c5" role="published by">publisher corp.</corpName>
+              <persName xml:id="m-f0418cbe-6eba-4fea-913f-14e2a89be3d4" role="printed by">printer person</persName>
+            </respStmt>
+            <date xml:id="m-42572b7f-3c4b-4235-a3f7-3e61104b3f8e">1850</date>
+          </pubStmt>
+          <physDesc xml:id="m-4caddfcb-4c6a-4890-a5c9-6a4274cb9bfd">
+            <dimensions xml:id="m-bda362df-c594-4f5f-a664-ae657f2ff578">dimension text<num xml:id="m-92b5acd8-f3f7-4164-a8af-87a202251a2d" label="width">25</num><num xml:id="m-fa092730-bcb3-4c4f-a76e-519fb1d3b3e2" label="height">15</num></dimensions>
+            <extent xml:id="m-f57edcbe-a47e-440e-8cc3-88903ce3da46">55pp</extent>
+          </physDesc>
+          <physLoc xml:id="m-ada9fb69-4e86-4d7c-baca-0bf89ec316bd">
+            <repository xml:id="m-e1d68188-ef2c-4fa9-a34b-2e5e7f2d92f0">name of source library<identifier xml:id="m-b377d6ce-cf20-4083-ab69-1b44f72e2465" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">sigla of source library</identifier></repository>
+            <identifier xml:id="m-055801dc-7780-46fa-b73e-9bd85f2d3b22">shelfmark of source</identifier>
+          </physLoc>
+          <notesStmt xml:id="m-6e4f6043-d57b-4c08-8110-15c0a294a459">
+            <annot xml:id="m-aa63053a-2fc7-4e27-96d7-b5ce7b7b4c2d" type="details">detailed notes about the source</annot>
+            <annot xml:id="m-f7c9c04a-4566-45df-8f39-6b531ccf7c66" type="description">description of the source</annot>
+          </notesStmt>
+          <itemList xml:id="m-58f0d589-9422-4c3a-a7a4-3f5868298764">
+            <item xml:id="m-857b9bd4-887a-46db-98ea-7ebc7d693ada">
+              <physLoc xml:id="m-97584355-236d-4db9-92cc-615f2d69862b">
+                <repository xml:id="m-10a9840a-3df6-4f3a-960f-bfdd7f571beb">name of item library<identifier xml:id="m-10ff97cb-3e0f-4907-9086-024b43ec3a90" authority="RISM"  authURI="http://www.rism.info/en/community/development/rism-sigla-catalogue.html">sigla of item library</identifier></repository>
+                <identifier xml:id="m-3d9ab526-7f1e-46db-afcb-f36884585bfa">shelfmark of itme</identifier>
+              </physLoc>
+              <notesStmt xml:id="m-1f2174dd-08c6-48b8-882c-0a121c87fcde">
+                <annot xml:id="m-a142bb65-e86a-479f-b200-0b379384be56">notes about the item</annot>
+              </notesStmt>
+            </item>
+          </itemList>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+    <workDesc xml:id="m-693f6062-9e9d-495a-b99c-dd28e8f23c86">
+      <work xml:id="m-6c8c6bb0-31a8-49b4-a83b-1b66dac47ac9" bc:id="work-id-06">
+        <titleStmt xml:id="m-5ebeedeb-8309-4a43-b664-afc3d6430187">
+          <title xml:id="m-03872553-fe9e-4370-b7be-7d915b399914">work title</title>
+          <respStmt xml:id="m-3bb57c4b-a1ad-4912-b634-7f5cd517b368">
+            <persName xml:id="m-3717bdfa-5a1f-4e81-a774-07aa0959a06c" role="role of person">"surname, firstname"</persName>
+          </respStmt>
+        </titleStmt>
+        <notesStmt xml:id="m-5aa997a1-0320-4ef6-8a9d-91e0f540047b">
+          <annot xml:id="m-2cae3b14-1795-4a91-968f-82fac4005c9a" type="details">detailed notes of work</annot>
+          <annot xml:id="m-49336f7e-a61c-4352-8fc5-4a08b7b5aa40" type="description">work description</annot>
+          <annot xml:id="m-cde2a945-4f24-416c-b3e8-8cff69697c8c" type="link">
+            <ptr xml:id="m-52903c65-11bd-4b84-857c-8686f2750f5c" target="htpp://example.com/" label="title"/>
+          </annot>
+        </notesStmt>
+      </work>
+    </workDesc>
+  </meiHead>
+  <music xml:id="m-c631d849-f067-4783-8db4-f82ba21781de"/>
+</mei>

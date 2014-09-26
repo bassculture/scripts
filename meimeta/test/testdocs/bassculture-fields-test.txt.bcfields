@@ -1,0 +1,199 @@
+Header ID	Work								Source																												
+	Work ID	Work Title*	People responsible for the work*		Work Notes		Work Links*		Source ID		Peaople Resposible for the Source*					Physical Description				Publication Details									Source Location?			Item*				Source Notes	
+			Name	Role	Work Description?	Work Detailed Notes?	Title	Link		Source Title*	Name	Role	RISM of Source?	Gore Code of Source?	Edition?	Pagination?	Dimensions?			Date*	Publication Place*	Publisher Person*	Publisher Corp.*	Printer Person*	Printer Corp.*	Sold at Place*	Sold by Corp.*	Sold by Person*	Library Name?	Sigla?	Shelfmark*	Library Name	Sigla	Shelfmark	Item notes	Description?	Details?
+/@bc:id	workDesc/work/@bc:id	workDesc/work/titleStmt/title*	workDesc/work/titleStmt/respStmt/persName*	workDesc/work/titleStmt/respStmt/persName*/@role	"workDesc/work/notesStmt/annot[type=""description""]"	"workDesc/work/notesStmt/annot[type=""details""]"	"workDesc/work/notesStmt/annot[type=""link""]*/ptr/@label"	"workDesc/work/notesStmt/annot[type=""link""]*/ptr/@target"	fileDesc/sourceDesc/source*/@bc:id	fileDesc/sourceDesc/source/titleStmt/title*	fileDesc/sourceDesc/source/titleStmt/respStmt/persName*	fileDesc/sourceDesc/source/titleStmt/respStmt/persName*/@role	"fileDesc/sourceDesc/source/identifier[authority=""RISM""]"	"fileDesc/sourceDesc/source/identifier[authority=""Gore""]"	fileDesc/sourceDesc/source/editionStmt/edition	fileDesc/sourceDesc/source/physDesc/extent	fileDesc/sourceDesc/source/physDesc/dimensions	"fileDesc/sourceDesc/source/physDesc/dimensions/num[label=""height""]"	"fileDesc/sourceDesc/source/physDesc/dimensions/num[label=""width""]"	fileDesc/sourceDesc/source/pubStmt/date*	fileDesc/sourceDesc/source/pubStmt/pubPlace*	"fileDesc/sourceDesc/source/pubStmt/respStmt/persName[role=""published by""]*"	"fileDesc/sourceDesc/source/pubStmt/respStmt/corpName[role=""published by""]"	"fileDesc/sourceDesc/source/pubStmt/respStmt/persName[role=""printed by""]*"	"fileDesc/sourceDesc/source/pubStmt/respStmt/corpName[role=""printed by""]*"	fileDesc/sourceDesc/source/pubStmt/distributor/address/addrLine*	"fileDesc/sourceDesc/source/pubStmt/distributor/corpName[role=""sold by""]*"	"fileDesc/sourceDesc/source/pubStmt/distributor/persName[role=""sold by""]*"	fileDesc/sourceDesc/source/physLoc/repository	"fileDesc/sourceDesc/source/physLoc/repository/identifier[authority=""RISM"", authURI=""http:\/\/www.rism.info\/en\/community\/development\/rism-sigla-catalogue.html""]"	fileDesc/sourceDesc/source/physLoc/identifier*	fileDesc/sourceDesc/source/itemList/item*/physLoc/repository	"fileDesc/sourceDesc/source/itemList/item*/physLoc/repository/identifier[authority=""RISM"", authURI=""http:\/\/www.rism.info\/en\/community\/development\/rism-sigla-catalogue.html""]"	fileDesc/sourceDesc/source/itemList/item*/physLoc/identifier	fileDesc/sourceDesc/source/itemList/item*/notesStmt/annot	"fileDesc/sourceDesc/source/notesStmt/annot[type=""description""]"	"fileDesc/sourceDesc/source/notesStmt/annot[type=""details""]"
+header-id-00									src-id-00																												
+header-id-01	work-id-01																																				
+header-id-02	work-id-02								src-id-02																												
+header-id-02									src-id-03																												
+																																					
+header-id-03	work-id-03	work title																																			
+header-id-03	work-id-03		"surname, firstname"	role of person																																	
+header-id-03	work-id-03				work description																																
+header-id-03	work-id-03					detailed notes of work																															
+header-id-03	work-id-03						title	htpp://example.com/																													
+header-id-04	work-id-04								src-id-04	source title																											
+header-id-04									src-id-04		"surname1, firstname1"																										
+header-id-04									src-id-04		"surname2, firstname2"	role of person																									
+header-id-04									src-id-04				RISM-01																								
+header-id-04									src-id-04					GORE-01																							
+header-id-04									src-id-04						1st edition																						
+header-id-04									src-id-04							55pp																					
+header-id-04									src-id-04								dimension text																				
+header-id-04									src-id-04									15																			
+header-id-04									src-id-04										25																		
+header-id-04									src-id-04											1850																	
+header-id-04									src-id-04												place of publication																
+header-id-04									src-id-04													publisher person															
+header-id-04									src-id-04														publisher corp.														
+header-id-04									src-id-04															printer person													
+header-id-04									src-id-04																printer corp.												
+header-id-04									src-id-04																	place of sale											
+header-id-04									src-id-04																		seller corp.										
+header-id-04									src-id-04																			seller person									
+header-id-04									src-id-04																				name of source library								
+header-id-04									src-id-04																					sigla of source library							
+header-id-04									src-id-04																						shelfmark of source						
+header-id-04									src-id-04																							name of item library	sigla of item library	shelfmark of itme	notes about the item		
+header-id-04									src-id-04																											description of the source	detailed notes about the source
+header-id-05	work-id-05						title	htpp://example.com/																													
+header-id-05	work-id-05					detailed notes of work																															
+header-id-05	work-id-05				work description																																
+header-id-05	work-id-05		"surname, firstname"	role of person																																	
+header-id-05	work-id-05	work title																																			
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																												
+header-id-05									src-id-05																											description of the source	detailed notes about the source
+header-id-05									src-id-05																							name of item library	sigla of item library	shelfmark of itme	notes about the item		
+header-id-05									src-id-05																						shelfmark of source						
+header-id-05									src-id-05																					sigla of source library							
+header-id-05									src-id-05																				name of source library								
+header-id-05									src-id-05																			seller person									
+header-id-05									src-id-05																		seller corp.										
+header-id-05									src-id-05																printer corp.	place of sale											
+header-id-05									src-id-05															printer person													
+header-id-05									src-id-05														publisher corp.														
+header-id-05									src-id-05													publisher person															
+header-id-05									src-id-05												place of publication																
+header-id-05									src-id-05											1850																	
+header-id-05									src-id-05										25																		
+header-id-05									src-id-05									15																			
+header-id-05									src-id-05								dimension text																				
+header-id-05									src-id-05							55pp																					
+header-id-05									src-id-05						1st edition																						
+header-id-05									src-id-05					GORE-01																							
+header-id-05									src-id-05				RISM-01																								
+header-id-05									src-id-05		"surname2, firstname2"	role of person																									
+header-id-05									src-id-05		"surname1, firstname1"																										
+																																					
+header-id-06	work-id-06	work title	"surname, firstname"	role of person	work description	detailed notes of work	title	htpp://example.com/	src-id-06	source title	"surname1, firstname1"		RISM-01	GORE-01	1st edition	55pp	dimension text	15	25	1850	place of publication	publisher person	publisher corp.	printer person	printer corp.	place of sale	seller corp.	seller person	name of source library	sigla of source library	shelfmark of source	name of item library	sigla of item library	shelfmark of itme	notes about the item	description of the source	detailed notes about the source
+header-id-06									src-id-06	source alternative title	"surname2, firstname2"	role of person																									
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					
+																																					

@@ -1,0 +1,8 @@
+Field names										
+Field names										
+Field names										
+@bc:id	workDesc/work*/@bc:id	workDesc/work/titleStmt/title*
+header-00	work-00	title 1
+header-00	work-00	title 2
+					
+header-01	work-01	title 3

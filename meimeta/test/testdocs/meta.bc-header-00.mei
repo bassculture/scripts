@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="m-98e99e64-0f67-42e6-95eb-9853c7666749" meiversion="2013">
+  <meiHead xml:id="m-aab7314f-fc83-4490-bc01-88d6cf18b047" xmlns:bc="http://bassculture.info/ns/1.0" bc:id="bc-header-00">
+    <fileDesc xml:id="m-bca25a80-e262-4c36-9477-dbbf12af9a76">
+      <titleStmt xml:id="m-dc225f42-ba86-4047-8646-2bb986d426d7">
+        <title xml:id="m-54242130-2297-448a-bdd8-54d133e53ee5"/>
+      </titleStmt>
+      <pubStmt xml:id="m-7bdece75-cfe6-46ed-b332-44414526a530"/>
+      <sourceDesc xml:id="m-5d8a728b-72ed-447f-9c3b-66ef66a51953">
+        <source xml:id="m-c04a4d82-fb6c-44f5-ae89-3284a3496b44" bc:id="src-00">
+          <identifier xml:id="m-6aa37214-5648-4d59-9c6c-a3f6e79562be" authority="Gore">1.1</identifier>
+          <titleStmt xml:id="m-51dffb47-9d36-408e-8286-0325e3f4f77e">
+            <title xml:id="m-9ff20b44-8d0f-4481-960c-924f3d69510e">title 1</title>
+            <title xml:id="m-649a4bdc-8c6e-4e94-8465-43464f4912b4">title 2</title>
+            <respStmt xml:id="m-6d5f1025-7b60-4c6e-bb97-9f13b30bd056">
+              <persName xml:id="m-6e124e95-849d-42df-ae16-70a7cb5550b6">persname1</persName>
+              <persName xml:id="m-05962820-b388-4251-8d1e-e07cff451aa8">persname2</persName>
+            </respStmt>
+          </titleStmt>
+          <editionStmt xml:id="m-6c19c6a1-9043-43de-bc21-1420b29e12fa">
+            <editionStmtfileDesc xml:id="m-6932d281-e0c6-4257-bdb5-1b73176284af">
+              <sourceDesc xml:id="m-2ad70bc4-b660-4b0d-8059-f3d8f163d67e">
+                <source xml:id="m-7cd9f002-2074-4c04-be8f-10cfff6452a8">
+                  <physDesc xml:id="m-6eb9e7ee-5b55-4fd9-9ef3-ce01e3808f33">
+                    <extent xml:id="m-ed9eb09a-4d0d-48d9-b4de-4f13f42dec2b">number of pages</extent>
+                  </physDesc>
+                </source>
+              </sourceDesc>
+            </editionStmtfileDesc>
+          </editionStmt>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+  </meiHead>
+  <music xml:id="m-6b242d6d-e2d0-4baa-bfcc-6a4afd9baf85"/>
+</mei>
