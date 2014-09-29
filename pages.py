@@ -116,7 +116,9 @@ if __name__ == "__main__":
                     surf = process_img(args, os.path.join(args.dir, file))
                     facs.addChild(surf)
     else:
+        logging.debug('list of files: \n')
         for file in os.listdir(args.dir):
+            logging.debug(str(file))
             if (not args.filter or prog.match(file)) and (not args.filter_ignore or not prog_ignore.match(file)):
                 surf = process_img(args, os.path.join(args.dir, file))
                 facs.addChild(surf)
