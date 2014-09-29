@@ -19,13 +19,7 @@ import logging
 from utilities import set_logging, get_descendants
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Merges pages.mei and tunes.mei. \
-        NB.: this function should ideally merge the header.mei as well, but \
-        due to current libmei issues (FRBR module isn\'t included in the build \
-        this has to be done manually. Once the libmei module is recompiled and \
-        able to handle the FRBR module, this script should be updated to \
-        so that it merges the header.mei too.')
-    parser.add_argument('header', help="file containing the mei header")
+    parser = argparse.ArgumentParser(description='Merges pages.mei and tunes.mei.')
     parser.add_argument('pages', help="mei containing a facsimile element with the images and pages")
     parser.add_argument('tunes', help="mei containing the encoded tunes as strain incipits and cadences")
     parser.add_argument('--out', dest='out', help="the path of the output file;\
@@ -33,11 +27,13 @@ if __name__ == "__main__":
     set_logging(parser)
     args = parser.parse_args()
 
-    header_doc = pymei.XmlImport.documentFromFile(args.header)
+    logging.info('reading pages from: ' + str(args.pages))
     pages_doc  = pymei.XmlImport.documentFromFile(args.pages)
+    logging.info('reading tunes from: ' + str(args.tunes)) 
     tunes_doc  = pymei.XmlImport.documentFromFile(args.tunes)
-    
-    meiHead     = pymei.MeiElement(header_doc.getElementsByName('meiHead')[0])
+
+    logging.info('creating MEI elements.')
+
     facsimile   = pymei.MeiElement(pages_doc.getElementsByName('facsimile')[0])
     music_group = pymei.MeiElement(tunes_doc.getElementsByName('group')[0])
 
@@ -49,9 +45,9 @@ if __name__ == "__main__":
     book_doc = pymei.MeiDocument()
     mei = pymei.MeiElement('mei')
     book_doc.root = mei
-    mei.addChild(meiHead)
     mei.addChild(music)
 
+    logging.info('merging mdivs...')
     mdivs = get_descendants(music_group, 'mdiv')
     for mdiv in mdivs:
         label = mdiv.getAttribute('label')
@@ -66,8 +62,8 @@ if __name__ == "__main__":
                 logging.warning('graphic with @target=\'' + target + '\' not found')
         else:
             logging.warning('missing label attribute at mdiv#' + mdiv.id)
-
     if args.out:
+        logging.info('writing output...')
         pymei.XmlExport.meiDocumentToFile(book_doc, args.out)
     else:
         meitxt = pymei.XmlExport.meiDocumentToText(book_doc)
