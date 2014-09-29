@@ -19,6 +19,7 @@ import string
 from utilities import set_logging, get_descendants
 
 def process_tune(args, filename, music_group, index):
+    logging.info("Processing file: " + filename)
     doc = pymei.XmlImport.documentFromFile(filename)
     music = doc.getElementsByName('music')[0]
     fileDesc = doc.getElementsByName('fileDesc')[0]
